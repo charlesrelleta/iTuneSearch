@@ -43,6 +43,7 @@ const SearchScreen = () => {
 
   const renderHeader = (
     <TextInput
+      testID="searchInput"
       placeholder="Search..."
       style={{padding: 10, margin: 5, backgroundColor: 'gainsboro'}}
       onChangeText={text => setSearchText(text)}
